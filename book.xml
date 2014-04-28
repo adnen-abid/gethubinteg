@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <BookFlights xmlns="ElsyArres.API">
+      <SoapMessage>
+		<Password>0555B8836C</Password>
+								<Username>EgyptspiritAPI</Username>
+								<LanguageCode>EN</LanguageCode>
+        <BookingOptions>
+            <BookOption>SpeedBoarding</BookOption>
+          </BookingOptions>
+          <ClientIP>123.201.254.254</ClientIP>
+          <ConfirmedCurrency>GBP</ConfirmedCurrency>
+          <ConfirmedPrice>23</ConfirmedPrice>
+          <ConfirmPossibleDuplicate>false</ConfirmPossibleDuplicate>
+          <CustomContainer>130323120526-01-2992-2826|130323120526-30-6816-57</CustomContainer>
+          <CustomerInfo>
+            <City>Test City</City>
+            <CompanyName>Test Company Ltd.</CompanyName>
+            <CountryCode>DE</CountryCode>
+            <Email>w.ashour@egyptspirit.co.uk</Email>
+            <FirstName>Tome</FirstName>
+            <HouseNo>111</HouseNo>
+            <LastName>LastNameA</LastName>
+            <PhoneArea>234</PhoneArea>
+            <PhoneCountry>1</PhoneCountry>
+            <PhoneNumber>567890</PhoneNumber>
+            <Sex>MALE</Sex>
+            <Street>Bangalore</Street>
+            <Zip>12345</Zip>
+          </CustomerInfo>
+          <PassengerInfo>
+            <Passenger>
+              <BaggageCode>0</BaggageCode>
+              <Birthday>1983-01-22</Birthday>
+              <FirstName>FirstnameA</FirstName>
+              <LastName>LastNameA</LastName>
+              <PassportNumber>000001</PassportNumber>
+              <Sex>MALE</Sex>
+              <Type>ADULT</Type>
+            </Passenger>
+          </PassengerInfo>
+          <PaymentInfo>
+            <BillingAddress>
+              <City>Test City</City>
+              <CountryCode>DE</CountryCode>
+              <HouseNo>111</HouseNo>
+              <Street>Test Street</Street>
+              <Zip>12345</Zip>
+            </BillingAddress>
+            <PaymentCode>AMEX</PaymentCode>
+          </PaymentInfo>
+        </Request>
+      </SoapMessage>
